@@ -1,0 +1,87 @@
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  font-size: 1rem;
+  height: 60px;
+  opacity: transparent;
+}
+
+header .logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url("./images/logo.svg");
+}
+
+header .logo:hover {
+    background-image: url("./images/logohover.svg");
+}
+
+header ul {
+  float: right;
+  margin: 0 20px;
+  top: 50px;
+}
+header nav ul li {
+  font-size: 1.5rem;
+  display: inline-block;
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 10px;
+  box-shadow: 4px 5px darkgray;
+  padding: 5px 5px;
+  margin: 20px 10px;
+  background-color: rgb(215, 216, 220);
+}
+
+header nav ul li:hover {
+    background-color: darkgray; 
+}
+
+body {
+  background-image: url('./images/christmas-background.jpg');
+  background-position: top;
+  height: 100%;
+}   
+
+main .encart {
+  /*min-height: 500px;*/
+  width: 35vw;
+  min-width: 400px;
+  background-color: white;
+  border: black 1px solid;
+  box-shadow: 4px 5px darkgray;
+  z-index: 1;
+  border-radius: 15px;
+  position: relative;
+  top: 150px;
+  left: 10%;
+  margin-bottom: 100px;
+}
+
+main article h1 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 30px 20px;
+    margin-bottom: 35px;
+}
+
+main article .explications {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  opacity: transparent;
+}
